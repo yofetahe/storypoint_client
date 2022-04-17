@@ -1,0 +1,98 @@
+.retro-container {
+  display: flex;
+}
+.left-menu {
+  height: 100vh;
+  background-color: #e2e2e2;
+  flex: 15%;
+  padding: 0px 10px;
+}
+.content {
+  overflow: auto;
+  flex: 80%;
+  height: 100vh;
+  white-space: nowrap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+/* ------------- Common CSS ------------- */
+:root {
+  --border-color: rgb(226, 226, 226);
+  --dark-background-color: rgb(207, 207, 207);
+  --light-background-color: rgb(240, 240, 240);
+}
+.retro-columns {
+  display: flex;
+  height: calc(100% - 60px);
+  background-color: var(--light-background-color);
+}
+.retro-category {
+  flex: 1;
+  margin: 0px 10px;
+  text-align: center; 
+}
+.category-title {
+  display: block;
+  font-size: 18px;
+  margin-top: 10px;
+  padding: 10px 0px;
+  border: 1px solid rgba(247, 247, 247, 0.9);
+}
+.category-description {
+  padding: 10px 5px;
+  font-style: italic;
+  background-color: rgba(247, 247, 247, 0.9);
+  border: 1px solid rgba(247, 247, 247, 0.9);
+}
+.category-input-form {
+  margin-top: 10px;
+  text-align: center !important;
+}
+.category-input-form > textarea {
+  width: 100%;
+  min-height: 50px;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 14px;
+  resize: none;
+}
+.category-input-form > button {
+  background-color: #ccc !important;
+  height: 25px !important;
+  padding: 2px 20px !important;
+  display: block;
+  width: 100%;
+  margin-left: 0px !important;
+}
+.category-input-form > button:hover {
+  background-color: rgb(190, 188, 188) !important;
+}
+.category-input, .category-no-input {
+  margin: 10px 0px;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+  border-radius: 5px;
+  padding: 10px;  
+}
+.category-input {
+  background-color: #f8f8f8;
+}
+/* ------------- End - Common CSS ------------- */
+
+
+/* ------------- Think CSS ------------- */
+.category-input-blur {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    height: 100%;
+    width: 100%;
+}
+/* ------------- End - Think CSS ------------- */

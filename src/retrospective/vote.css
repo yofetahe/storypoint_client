@@ -1,0 +1,10 @@
+.input-content {
+    width: 100%;
+}
+.voteButton {
+    background-color: green;
+    float: right;
+    padding: 1px 5px;
+    color: #fff;
+    cursor: pointer;
+}

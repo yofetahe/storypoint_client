@@ -1,0 +1,56 @@
+.menu-title {
+  font-size: 18px;
+  padding: 8px 0px 0px 0px;
+  font-weight: bold;
+}
+.page-name {
+  text-transform: capitalize;
+}
+.sub-title {
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+.page-action> input {
+  display: block;
+  width: 97%;
+  box-sizing: border-box;
+}
+#copy-btn {
+  display: inline !important;
+  padding: 12px 12px;
+}
+#close-btn {
+  display: inline !important;
+  padding: 12px 12px;
+}
+#copy-btn:hover, #close-btn:hover {
+  background-color: rgba(76, 175, 80, 0.6);
+}
+
+.participant-list > span {
+  font-weight: bold;
+}
+.participant-list {
+  text-align: left;
+}
+
+.attendee {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+.attendee-page {
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+}
+.attendee-name {
+  text-transform: capitalize;
+}
+.attendee-type {
+  font-style: italic;
+}

@@ -1,0 +1,70 @@
+.action-menu {
+    background-color: transparent;
+    height: 60px;
+    padding: 10px 0px;
+    right: 0px;
+}
+
+.action-menu-manager, .action-menu-btns, .action-menu-separator {
+    display: inline-block;
+}
+.time-start-btn, .time-setting {
+    display: inline;
+}
+.timer-adjustment {
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    padding: 3px 6px;
+    cursor: pointer;
+    margin: 0px 4px;
+    font-weight: bold;
+}
+.time-start-btn {
+    cursor: pointer;
+    background-color: #4caf50;
+    border-radius: 5px;
+    color: #fff;
+    padding: 3px 5px;
+    border: 1px solid #4caf50;
+    margin-left: 3px;
+}
+.time-start-btn:hover {
+    border: 1px solid #4caf50;
+    background-color: #fff;
+    color: #4caf50;
+}
+
+.action-menu-btns > button {
+    height: 30px !important;
+    padding: 5px 32px !important;
+}
+.action-menu-btns > button.inactive {
+    height: 30px !important;
+    padding: 5px 32px !important;
+    background-color: rgba(233, 233, 233, 0.5) !important;
+    border-color: rgba(233, 233, 233, 0.5) !important;
+    color: #4caf50 !important;
+}
+
+.disabledButton {
+    pointer-events: none;
+}
+.action-menu-btns > button.disabledBtn {
+    height: 30px !important;
+    padding: 5px 32px !important;
+    pointer-events: none;
+}
+
+.action-menu-separator {
+    padding: 0px 20px;
+}
+
+.action-menu-timer-bar {
+    margin-top: 10px;
+    height: 5px;
+}
+#time-counter {
+    background-color: #4caf50;
+    width: 0%;
+    height: 5px;
+}
